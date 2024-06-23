@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #ededed;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px; /* Subject to change */
+} 
+
+.keypad button {
+    width: 50px; /* Subject to change */
+    height: 50px; /* Subject to change */
+    font-size: 20px; /* Subject to change */
+    border-radius: 100px;
+    border: none;
+}
+
+.keypad .operator-row {
+    display: flex;
+}
+
+.keypad .operator-row button {
+    background-color: #d3dde5;
+    color: #748695;
+}
+
+.keypad .input-buttons {
+    display: flex;
+}
+
+.number-pad div {
+    display: flex;
+}
